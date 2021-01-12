@@ -5,7 +5,7 @@ export default function Navbar(props) {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           <img
             src={
               "https://media1.tenor.com/images/134da48972b50d47b7866b61810e4566/tenor.gif?itemid=16717514"

@@ -91,6 +91,7 @@ export default function App() {
                 movies.map(movie => <Movie key={movie.id} {...movie} />)}
             </div>
           </>
+         
         </Route>
         <Route path="/movie/:movieID">
           <MovieDetail />

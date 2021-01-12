@@ -30,7 +30,7 @@ export default function MovieDetail(props){
       <nav aria-label="breadcrumb" className="mb-5">
         <ol className="breadcrumb">
           <li className="breadcrumb-item">
-            <Link to="/">Home</Link>
+            <Link to="/">Back</Link>
           </li>
           <li className="breadcrumb-item active" aria-current="page">
             {movie.title}
