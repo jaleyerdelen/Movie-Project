@@ -142,3 +142,8 @@ overlay {
    background-color:rgb(233, 175, 59);
    text-align: center;
 }
+.titles {
+  font-size: 1rem;
+  width: 200px;
+  height: 40px;
+}

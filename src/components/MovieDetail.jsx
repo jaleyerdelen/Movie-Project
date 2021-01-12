@@ -55,8 +55,8 @@ export default function MovieDetail(props){
           {similarMovies.map(movie => {
             return (
              
-              <div className="col-lg-3 col-sm-12">
-                <h4>{movie.title}</h4>
+              <div className="col-lg-4 col-sm-12">
+                <h4 className="titles">{movie.title}</h4>
                 <img
                   src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`}
                   className="card-img-top"
