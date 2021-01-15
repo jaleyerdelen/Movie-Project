@@ -33,7 +33,7 @@ const Movie = ({id, title, poster_path, overview, vote_average })  => (
     <div className="movie-over">
       <h2>Overview:</h2>
       <p>{overview}</p>
-       <Link to={`/movie/${id}`} className="btn btn-dark">Detay</Link>
+       <Link to={`/movie/${id}`} className="btn btn-dark">Detail</Link>
     </div>
   </div>
 );
